@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Echo Version) {
+        stage('Echo Version') {
               steps {
                   bat "echo Print Maven Version"
                   bat "mav -version"
