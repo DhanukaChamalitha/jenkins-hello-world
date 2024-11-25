@@ -25,7 +25,7 @@ pipeline {
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
         }
-        stage("Unit Test') {
+        stage('Unit Test') {
               steps {
                   bat "mvn test"
               }
